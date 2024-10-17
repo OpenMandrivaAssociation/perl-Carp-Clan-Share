@@ -8,7 +8,7 @@ Release:	5
 Summary:	Share your Carp::Clan settings with your whole Clan
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Carp/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
