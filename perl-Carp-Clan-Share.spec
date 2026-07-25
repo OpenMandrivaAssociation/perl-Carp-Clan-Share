@@ -2,14 +2,14 @@
 %define upstream_version 0.013
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Share your Carp::Clan settings with your whole Clan
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Carp/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/robertkrimen/Carp-Clan-Share/tree/master
+Source0:	https://cpan.metacpan.org/authors/id/R/RK/RKRIMEN/Carp-Clan-Share-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
